@@ -16,15 +16,44 @@
   <!-- RESULTADOS -->
   <section>
     <div id="contenedorPrincipal"><!-- Nos permite ver el marcador -->
-      <h3>RESULTADOS</h3>
-      <div id="respuestasCorrectas" class="marcador">
-        
-      </div><!-- Se visualizan las respuestas correctas -->
-      <div id="respuestasIncorrectas"  class="marcador">
-        
-      </div><!-- Nos permite visualizar las respuestas incorrectas -->
+      <div id="insertName">
+        <h3>INGRESE SU NOMBRE</h3>
+        <input type="text" name="nameUser" id="nameUser" placeholder="ESCRIBE TU NOMBRE"><br>
+        <input type="button" name="" id="buttonName" value="ENVIAR">
+      </div>
+      <div id="questionPlay">
+        <H3>¿QUIERES JUGAR?</H3>
+        <input type="button" name="" id="falsePlay" value="NO, AHORA NO">  
+        <input type="button" name="" id="truePlay" value="QUIERO JUGAR">      
+      </div>
+      <div id="askOne">
+        <h3>¿Cuál es la bebida preferida de Gonzalo?</h3>
+        <input type="radio" name="radioOne" value="agua"> Agua <br>
+        <input type="radio" name="radioOne" value="cerbeza"> Cerveza<br>
+        <input type="radio" name="radioOne" value="vino"> Vino   <br>
+        <input type="button" name="radioOne" id="buttonOne" value="ENVIAR">     
+      </div>
+      <div id="askTwo">
+        <h3>¿Qué es lo que más le gusta hacer a Lulú? </h3>
+        <input type="radio" name="radioTwo" value="cantar"> Cantar<br>
+        <input type="radio" name="radioTwo" value="dibujar"> Dibujar<br>
+        <input type="radio" name="radioTwo" value="programar"> Programar <br>  
+        <input type="button" name="radioTwo" id="buttonTwo" value="ENVIAR">     
+      </div>
+      <div id="result">
+        <h3>RESULTADOS</h3>
+        <div id="respuestasCorrectas" class="marcador">
+          
+        </div><!-- Se visualizan las respuestas correctas -->
+        <div id="respuestasIncorrectas"  class="marcador">
+          
+        </div><!-- Nos permite visualizar las respuestas incorrectas -->
+        <input type="submit" name="" value="LISTO!!!">
+      </div>
+
+      
     </div>
   </section>
-  <script type="text/javascript" src="js/app.js"></script>
+ <!--<script type="text/javascript" src="js/app.js"></script>-->
 </body>
 </html>

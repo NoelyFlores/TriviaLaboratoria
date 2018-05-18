@@ -5,8 +5,6 @@ var respuestasCorrectas = document.getElementById('respuestasCorrectas');
 var respuestasIncorrectas= document.getElementById('respuestasIncorrectas');
 
 
-var nombreUsuario = prompt("Ingresa tu nombre:");
-saludarUsario.innerHTML = "😊 Bienvenid@ " + nombreUsuario + " 😊" ;
 
 var iniciarPartida = parseInt(prompt("Ingresa el número que corresponda a tu respuesta \n ¿Quieres iniciar la partida? \n 1.Si \n 2.No"));
 
